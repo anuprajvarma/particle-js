@@ -26,10 +26,10 @@ export default function App() {
           },
           "particles": {
             "number": {
-              "value": 50,
+              "value": 100,
               "density": {
                 "enable": false,
-                "value_area": 0
+                "value_area": 800
               }
             },
             "color": {
@@ -42,7 +42,7 @@ export default function App() {
               }
             },
             "opacity": {
-              "value": 0.8,
+              "value": 0.5,
               "random": false,
               "anim": {
                 "enable": false,
@@ -52,8 +52,8 @@ export default function App() {
               }
             },
             "size": {
-              "value": 4,
-              "random": false,
+              "value": 3,
+              "random": true,
               "anim": {
                 "enable": false,
                 "speed": 40,
@@ -64,7 +64,7 @@ export default function App() {
             "rotate": {
               "value": 0,
               "random": true,
-              "direction": "clockwise",
+              "direction": "none",
               "animation": {
                 "enable": true,
                 "speed": 5,
@@ -73,10 +73,10 @@ export default function App() {
             },
             "line_linked": {
               "enable": true,
-              "distance": 600,
+              "distance": 150,
               "color": "#ffffff",
               "opacity": 0.4,
-              "width": 2
+              "width": 1
             },
             "move": {
               "enable": true,
@@ -99,8 +99,8 @@ export default function App() {
                 "mode": ["grab"]
               },
               "onclick": {
-                "enable": false,
-                "mode": "bubble"
+                "enable": true,
+                "mode": "push"
               },
               "resize": true
             },
@@ -131,7 +131,7 @@ export default function App() {
           },
           "retina_detect": true,
           "background": {
-            "color": "#0000FF",
+            "color": "#000000",
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",
